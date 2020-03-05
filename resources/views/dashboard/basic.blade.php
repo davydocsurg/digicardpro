@@ -28,7 +28,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-dark navbar-light shadow-lg">
+  <nav class="main-header navbar navbar-expand navbar-dark  shadow-lg">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -37,13 +37,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <li class="nav-item d-none d-sm-inline-block">
         <a href="{{ url('/dash') }}" class="nav-link">Home</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
-      </li>
     </ul>
 
     <!-- SEARCH FORM -->
-    <form class="form-inline ml-3">
+    <!-- <form class="form-inline ml-3">
       <div class="input-group input-group-sm">
         <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
         <div class="input-group-append">
@@ -52,7 +49,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </button>
         </div>
       </div>
-    </form>
+    </form> -->
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
@@ -110,32 +107,40 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <a href="#" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Create Card </p><span class="right "><i class="nav-icon fas fa-id-card"></i></span>
+                  <p>Create Card </p><span class="right badge badge-dark "><i class="nav-icon fas fa-id-card"></i></span>
                 </a>
               </li>
               <li class="nav-item right-content">
                 <a href="#" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Profile</p> <span class="right"><i class="fas fa-id-badge mr-2"></i></span>
+                  <p>View Cards</p> <span class="right badge badge-dark"><i class="far fa-eye mr-2"></i></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>More Info</p>
-                <span class="right badge badge-danger">??</span>
+                <span class="right badge badge-danger"><i class="fas fa-info mr-2"></i></span>
                 </a>
               </li>
             </ul>
           </li>
           <hr>
           <li class="nav-item ">
+          <a href="#" class="nav-link bg-purple">
+            <i class="fas fa-id-badge mr-3"></i>
+              <p>
+                Profile
+              </p>
+            </a>
+            <hr>
             <a href="#" class="nav-link bg-green">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Choose Template
               </p>
             </a>
+
           </li>
         </ul>
       </nav>
