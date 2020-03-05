@@ -28,7 +28,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+  <nav class="main-header navbar navbar-expand navbar-dark navbar-light shadow-lg">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -85,8 +85,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-
+      <div class="user-panel mt-3 pb-3 mb-3 ">
+        <div class="shadow-lg cad ml-3"><i class="nav-icon fas fa-id-card"></i></div>
+        <hr>
         <div class="info">
           <a href="#" class="d-block">About Digi-Card</a>
         </div>
@@ -101,31 +102,38 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Create Card
+                  Explore
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="#" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Create from scratch</p>
+                  <p>Create Card </p><span class="right "><i class="nav-icon fas fa-id-card"></i></span>
+                </a>
+              </li>
+              <li class="nav-item right-content">
+                <a href="#" class="nav-link ">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Profile</p> <span class="right"><i class="fas fa-id-badge mr-2"></i></span>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Choose Template</p>
+                  <p>More Info</p>
+                <span class="right badge badge-danger">??</span>
                 </a>
               </li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
+          <hr>
+          <li class="nav-item ">
+            <a href="#" class="nav-link bg-green">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                More ...
-                <span class="right badge badge-danger">New here?</span>
+                Choose Template
               </p>
             </a>
           </li>
@@ -147,8 +155,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Explore</a>
-              <i class="right fas fa-angle-right"></i>
+
               
               </li>
             </ol>
@@ -252,7 +259,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2020 <a href="https://adminlte.io">Digi-Card.com</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2020 <a href="https://mydigicard.herokuapp.com">My Digi-Card</a>.</strong> All rights reserved.
   </footer>
 </div>
 <!-- ./wrapper -->
